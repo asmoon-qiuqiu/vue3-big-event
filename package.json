@@ -13,7 +13,10 @@
     "lint-staged": "lint-staged"
   },
   "dependencies": {
+    "axios": "^1.7.7",
+    "element-plus": "^2.8.6",
     "pinia": "^2.2.4",
+    "pinia-plugin-persistedstate": "^4.1.1",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
@@ -27,6 +30,8 @@
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",
     "sass": "^1.80.2",
+    "unplugin-auto-import": "^0.18.3",
+    "unplugin-vue-components": "^0.27.4",
     "vite": "^5.4.8"
   },
   "lint-staged": {
