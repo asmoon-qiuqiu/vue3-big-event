@@ -89,7 +89,7 @@ const handleCommand = async (key) => {
     </el-aside>
     <el-container>
       <el-header>
-        <div>黑马程序员：<strong>{{ userStore.user.username || '默认' }}</strong></div>
+        <div>程序员：<strong>{{ userStore.user.nickname || '默认' }}</strong></div>
         <el-dropdown placement="bottom-end" @command="handleCommand">
           <!-- 默认给用户看的 -->
           <span class="el-dropdown__box">
@@ -112,7 +112,7 @@ const handleCommand = async (key) => {
       <el-main>
         <router-view></router-view>
       </el-main>
-      <el-footer>大事件 ©2023 Created by 黑马程序员</el-footer>
+      <el-footer>大事件 ©2024 Created by QQ</el-footer>
     </el-container>
   </el-container>
 </template>

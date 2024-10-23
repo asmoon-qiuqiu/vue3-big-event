@@ -14,3 +14,14 @@ export const uesLoginService = ({ username, password }) => {
 export const useGetinfoService = () => {
   return request.get('/my/userinfo')
 }
+
+// 更新个人信息
+export const userUpdateInfoService = ({ id, nickname, email }) => {
+  return request.put('/my/userinfo', { id, nickname, email })
+}
+
+// 更新用户头像
+export const userUploadAvatarService = (avatar) => {
+  return request.patch('/my/update/avatar', { avatar })
+}
+
